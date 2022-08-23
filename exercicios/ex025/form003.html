@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iname">Name:</label>
+            <input type="text" name="name" id="iname">
+        </p>
+        <p>
+            <label for="iaverage">Average:</label>
+            <input type="number" name="number" id="iaverage" size="10" step=".1">
+        </p>
+        <p>
+            <label for="imonth">School Year:</label>
+            <input type="month" name="month" id="imonth" value="2022-8">
+        </p>
+        <p>
+            <label for="iday">Exam Day:</label>
+            <input type="date" name="date" id="iday">
+        </p>
+        <p>
+            <label for="itime">Exam Time:</label>
+            <input type="time" name="time" id="itime">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>
