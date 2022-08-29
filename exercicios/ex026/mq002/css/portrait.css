@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /*Styles for portrait*/
+
+body {
+    background: url(../images/cev-portrait.jpg) no-repeat center bottom;
+}
