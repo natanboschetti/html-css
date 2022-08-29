@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*Styles for screen*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8080807c;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: gray;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(109, 108, 108);
+    color: white;
+}
+
+main {
+    display: block; /*Para poder ser centralizado*/
+    margin: auto;
+    width: 600px;
+    text-align: left;
+    line-height: 1.7em;
+    text-indent: 30px;
+}
+
+main h2 {
+    text-align: center;
+    padding: 20px;
+}
