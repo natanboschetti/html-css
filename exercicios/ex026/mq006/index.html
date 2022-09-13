@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
 </head>
 
-<body>
+<body onresize="changedSize()">
     <header class="header">
         <h1 class="header-title">Media Query</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
@@ -56,6 +57,14 @@
                 menu.style.display = 'none'
             } else {
                 menu.style.display = 'block'
+            }
+        }
+
+        function changedSize() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
             }
         }
     </script>
